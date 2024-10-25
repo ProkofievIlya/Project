@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Handling Task</title>
+</head>
+<body>
+  <button id="myButton">Натисни мене</button>
+
+  <script>
+    function handleClick() {
+      console.log("Кнопку натиснуто");
+    }
+
+    document.getElementById("myButton").addEventListener("click", handleClick);
+
+    module.exports = handleClick; // не видаляти цей код
+  </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Task</title>
+</head>
+
+<body>
+    <p id="myParagraph">Початковий текст</p>
+    <button onclick="changeText('myParagraph', 'Новий текст')">Змінити текст</button>
+
+    <script>
+        function changeText(elementId, newText) {
+            const element = document.getElementById(elementId);
+            if (element) {
+                element.textContent = newText;
+            } else {
+                console.error('Element with id "' + elementId + '" not found.');
+            }
+        }
+        module.exports = changeText; 
+    </script>
+</body>
+</html>

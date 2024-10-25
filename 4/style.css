@@ -1,0 +1,63 @@
+body{
+    background-color:thistle;
+    
+}
+section{
+    position: relative;
+}
+.myimg {
+    width: 400px;
+    height: auto;
+    border-radius: 0 0 40px 0;
+    box-shadow: 50px 50px 2px rgb(76, 14, 88);
+    margin: 89px 0 0 auto;
+    border: 3px solid;
+}
+.mydiv1{
+    padding: 0 80px 0;
+}
+.mydiv2 {
+    width: 300px;
+    position: absolute;
+        top: 200px;
+        left: 35%;
+}
+.mydiv3 {
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    left: 55%;
+}
+.mydiv4 {
+    width: 300px;
+    position: absolute;
+    top: 500px;
+    left: 35%;
+}
+.mydiv5 {
+    width: 300px;
+    position: absolute;
+    top: 500px;
+    left: 55%;
+}
+h2{
+    font-size: 50px;
+    position: absolute;
+    top: 60px;
+    left:35%;
+}
+h3{
+    font-size: 22px;
+    margin-bottom: 0;
+}
+p{
+    text-align: justify;
+}
+a{
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 4px 10px rgb(165, 56, 255);
+}

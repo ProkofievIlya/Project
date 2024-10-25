@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DOM Manipulation Task</title>
+</head>
+
+<body>
+    <div id="myBox" style="width: 100px; height: 100px; background-color: grey;"></div>
+    <button onclick="changeBackgroundColor('myBox', 'blue')">Змінити колір</button>
+
+    <script>
+        function changeBackgroundColor(elementId, color) {
+            const element = document.getElementById(elementId);
+            if (element) {
+                element.style.backgroundColor = color;
+            } else {
+                console.error('Element with id ' + elementId + ' not found.');
+            }
+        }
+
+        module.exports = changeBackgroundColor; // не видаляти цей код
+    </script>
+</body>
+
+</html>
